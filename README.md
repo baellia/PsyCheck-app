@@ -1,4 +1,4 @@
-# 🧠 PsyCheck - Sistem Assessment Kesehatan Mental
+# PsyCheck - Sistem Assessment Kesehatan Mental
 
 ## Overview
 PsyCheck adalah platform screening kesehatan mental berbasis AI yang menggunakan algoritma Support Vector Machine (SVM) untuk menganalisis 51 gejala across 5 domain. Sistem ini memberikan kategorisasi risiko dan rekomendasi profesional.
