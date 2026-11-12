@@ -1022,11 +1022,11 @@ elif page == "Assessment":
             
             with col1:
                 nickname = st.text_input("Nama Panggilan", placeholder="Masukkan nama panggilan")
-                age = st.number_input("Umur", min_value=12, max_value=100, value=20)
+                age = st.number_input("Umur", min_value=15, max_value=32, value=20)
             
             with col2:
                 gender = st.selectbox("Jenis Kelamin", 
-                                    ["Pilih...", "Laki-laki", "Perempuan", "Lainnya"])
+                                    ["Pilih...", "Laki-laki", "Perempuan"])
                 occupation = st.selectbox("Pekerjaan/Status",
                                        ["Pilih...", "Pelajar", "Mahasiswa", "Bekerja", "Lainnya"])
             
@@ -1444,6 +1444,7 @@ elif page == "Tools":
         - World Health Organization (WHO) 
         - National Institute of Mental Health (NIMH)
         - Journal of General Internal Medicine
+        - Artikel News BBC, Penelitian Studi Neurosains Universitas Cambridge
         </div>
         """, unsafe_allow_html=True)
         
